@@ -23,9 +23,10 @@ li a:hover{
 
 .segundo-section{
 	background-image: url(../img/taxi.jpg);
-	height: 290vh;
+	height: 120vh;
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: bottom;
 
 }
 
@@ -35,9 +36,9 @@ li a:hover{
 	width: 500px;
 	height:400px;
 	background: #f7b617;
-	position: fixed;
+	position: absolute;
 	top: 200px;
-	left:851px;
+	left:760px;
 
 }
 
@@ -94,3 +95,29 @@ h4{
   	margin-left: 10%;
   }
 
+#descarga{
+	background-color: #f7b617;
+	padding: 90px;
+}
+
+.titulo-descarga{
+	font-size: 32px;
+	color: white;
+}
+
+.texto-descarga{
+	font-size: 22px;
+	color: white;
+	line-height: 33px;
+}
+
+.parrafo-descarga{
+	padding-left: 20px;
+}
+
+#rectangle {
+	width: 500px;
+	height: 400px;
+	background: transparent;
+	border-color: 1px solid white;
+}
