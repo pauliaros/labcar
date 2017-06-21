@@ -164,3 +164,53 @@ h4{
     text-decoration: none;
     	margin-left: 10%;
   }
+
+  #tarifas{
+	background-color: #f7b617;
+	padding: 90px;
+}
+
+#origen,
+#destino{
+	width: 230px;
+	height: 40px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 3px;
+    background: transparent;
+    border: none;
+    border: 1px solid white;
+    margin-left: 17px;
+}
+
+.boton-ruta {
+	background-color: white;
+    color: black;
+    font-size: 15px;
+    font-weight: 120;
+    width: 50%;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+   padding-top:8px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    	margin-left: 10%;
+  }
+
+ ::-webkit-input-placeholder { color: white; }
+:-moz-placeholder { color: white; } 
+::-moz-placeholder { color: white; } 
+:-ms-input-placeholder { color: white; } 
+
+.titulo-tarifas{
+	font-size: 32px;
+	color: white;
+}
+
+.sub-tarifas{
+	padding: 1% ;
+	font-size: 18px;
+	color: white;
+}
