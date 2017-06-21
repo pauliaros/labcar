@@ -5,9 +5,9 @@ body{
 }
 
 .navbar{
-	background-color: transparent;
+	background-color: white;
 	border:none;
-	padding: 3% 5%;
+	padding: 1% 5%;
 }
 
 
@@ -20,3 +20,77 @@ li a:hover{
 	color:#f7b617 !important;
 		
 }
+
+.segundo-section{
+	background-image: url(../img/taxi.jpg);
+	height: 290vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+
+#fondo-disfruta {
+
+	width: 500px;
+	height:400px;
+	background: #f7b617;
+	position: fixed;
+	top: 200px;
+	left:851px;
+
+}
+
+h2{
+	padding: 2% 10%;
+	font-size: 28px;
+	line-height: 30px;
+	color: white;
+}
+
+h4{
+	padding: 3% 10%;
+	font-size: 18px;
+	color: white;
+}
+
+.logoblanco{
+	width: 100px;
+	padding-left: 10px;
+}
+
+.boton-conductor {
+	background-color: white;
+    color: black;
+    font-size: 15px;
+    font-weight: 120;
+    width: 50%;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+   padding-top:8px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    	margin-left: 10%;
+  }
+
+  .registro,
+  .registro2{
+  	padding-left: 10%;
+  	color: white;
+  }
+
+  input{
+  	width: 180px;
+    margin: 5px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    margin-left: 17px;
+  }
+
+  .texto{
+  	margin-left: 10%;
+  }
+
