@@ -105,8 +105,14 @@ h4{
 	color: white;
 }
 
+.titulo-conduce{
+	font-size: 32px;
+	color: white;
+	padding-top: 130px;
+}
+
 .texto-descarga{
-	font-size: 22px;
+	font-size: 20px;
 	color: white;
 	line-height: 33px;
 }
@@ -115,9 +121,46 @@ h4{
 	padding-left: 20px;
 }
 
-#rectangle {
-	width: 500px;
-	height: 400px;
-	background: transparent;
-	border-color: 1px solid white;
+#conduce{
+	background-image: url(../img/conduce.jpg);
+	height: 70vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
 }
+
+#fondo-conduce {
+
+	width: 500px;
+	height:474px;
+	
+	background:rgba(0,0,0,0.5);
+	position: absolute;
+	
+	left:760px;
+
+}
+
+.texto-conduce{
+	font-size: 19px;
+	color: white;
+	line-height: 33px;
+	padding-left: 50px;
+	padding-right : 30px;
+}
+.boton-conductor2 {
+	background-color: #f7b617;
+    color: black;
+    font-size: 15px;
+    font-weight: 120;
+    width: 50%;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+   padding-top:8px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    	margin-left: 10%;
+  }
