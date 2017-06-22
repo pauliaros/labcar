@@ -38,7 +38,7 @@ li a:hover{
 	background: #f7b617;
 	position: absolute;
 	top: 200px;
-	left:760px;
+	left:725px;
 
 }
 
@@ -133,12 +133,12 @@ h4{
 #fondo-conduce {
 
 	width: 500px;
-	height:474px;
+	height:445px;
 	
 	background:rgba(0,0,0,0.5);
 	position: absolute;
 	
-	left:760px;
+	left:725px;
 
 }
 
@@ -213,4 +213,10 @@ h4{
 	padding: 1% ;
 	font-size: 18px;
 	color: white;
+}
+
+#map{
+	width: 40%;
+	height: 50vh;
+	border: 2px solid white;
 }
