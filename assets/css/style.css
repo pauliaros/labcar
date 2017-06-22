@@ -220,3 +220,33 @@ h4{
 	height: 50vh;
 	border: 2px solid white;
 }
+
+footer{
+  background-color: #2b2b2b;
+  padding: 3% 5%;
+}
+
+.icono{
+  margin-top: 100%;
+  display: inline-block;
+  color: white;
+  width: 20px;
+}
+
+.icono:hover{
+  color: #f7b617;
+}
+
+.link {
+ color: white !important;
+ list-style: none;
+ text-decoration: none;
+ line-height: 30px;
+}
+
+.pie{
+	font-size: 15px;
+	color: white !important;
+}
+
+
